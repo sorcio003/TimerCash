@@ -1,13 +1,13 @@
 start_btn = '''
 MDRoundFlatIconButton:
     text: "Start"
-    icon: "android"
+    icon: "check"
     text_color: "white"
     theme_bg_color: "Custom"
     line_color: "black"
     icon_color: "white"
     md_bg_color: "green"
-    pos_hint: {'center_x':0.55, 'center_y':0.4}
+    pos_hint: {'center_x':0.65, 'center_y':0.2}
     on_press: app.start()
 '''
 
@@ -20,7 +20,7 @@ MDRoundFlatIconButton:
     line_color: "black"
     icon_color: "white"
     md_bg_color: "red"
-    pos_hint: {'center_x':0.4, 'center_y':0.4}
+    pos_hint: {'center_x':0.35, 'center_y':0.2}
     on_press: app.stop()
 '''
 
