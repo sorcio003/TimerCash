@@ -24,15 +24,6 @@ MDRoundFlatIconButton:
     on_press: app.stop()
 '''
 
-receiver_btn = '''
-MDRoundFlatIconButton:
-    text: "Receiver"
-    icon: "plus"
-    text_color: "black"
-    pos_hint: {'center_x':0.8, 'center_y':0.45}
-    on_press: app.receiver()
-'''
-
 add_worker_btn = '''
 MDRoundFlatIconButton:
     text: "Add Worker"

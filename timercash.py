@@ -69,10 +69,6 @@ class TimerCash(MDApp):
         
         print(self.worker)
         
-    def receiver(self):
-        self.receiver_name = self.username.text
-        #print("Receiver: "+ self.receiver_name)
-        
     def start(self):
         
         if not self.started and self.added:
